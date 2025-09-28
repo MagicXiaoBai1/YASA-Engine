@@ -1,0 +1,2 @@
+更新uuid计算方法——生成uast唯一id hash：节点类型 + 节点位置 + 代码片段 
+目前设计：Hash(UastNodeType + "#" + UastNodeFileURL + "###"+ codeRaw)
